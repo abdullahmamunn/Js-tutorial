@@ -37,3 +37,11 @@ document.getElementById('myImg').heigth = 500;
  {
  	document.getElementById('mycolor').style.color = "red";
  }
+
+
+//The onchange Event
+function Myfunction()
+{
+	var x = document.getElementById('name');
+	x.value = x.value.toUpperCase();
+}
