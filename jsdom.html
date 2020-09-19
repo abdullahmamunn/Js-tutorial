@@ -35,6 +35,31 @@
     <label>Name:</label>
     <input type="text" name="name" onchange="Myfunction()" placeholder="Enter your name" id="name">
    </div>
+
+   <div class="container" style="height: 200px">
+       <h1 id="fullname"></h1>
+        <p id ="age">30</p>
+
+        <h2>Enter your number</h2>
+        <input type="text" id="getNumber">
+        <button onclick="getMonth()">Get Month</button>
+        <p id="getMonth"></p>
+        <br>
+        <h2>Get text from html</h2>
+        <div id="getText">
+            Mohammad Abdullah Al Mamun 
+            <br>
+            <p id="show"></p>
+        </div>
+        <br>
+
+        <h1>SetTimeout() and clearTimeout()</h1>
+        <button onclick="countDownInit()">Countdown Start</button>
+        <button onclick="stopTimeout()">StopCountdown</button>
+        <div style="width: 100px; height: 100px">
+            <p id="show_count"></p>
+        </div>
+   </div>
    
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
