@@ -43,7 +43,7 @@ document.getElementById('myImg').heigth = 500;
 function Myfunction()
 {
 	var x = document.getElementById('name');
-	x.value = x.value.toUpperCase();
+	x.value = x.value.toLowerCase();
 }
 
 //objects
@@ -64,7 +64,7 @@ document.getElementById('age').innerHTML = "Age is "+person.age;
 
 
 function getMonth(){
-	var getNumber = Number(document.getElementById('getNumber').value);
+	var getNumber = parseInt(document.getElementById('getNumber').value);
 	//parseInt
     var txt;
 
@@ -148,3 +148,9 @@ function stopTimeout()
 {
 	clearTimeout(countDown);
 }
+
+function average(a, b) {
+  return (a + b)/ 2;
+}
+
+console.log(average(2, 1));

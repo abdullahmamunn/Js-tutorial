@@ -1,0 +1,34 @@
+.card-border{
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+.class-one{
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+.class-two{
+    height: 400px;
+    width: 400px;
+    background: blue;
+    border: 1px solid red;
+}
+.class-three{
+    height: 400px;
+    width: 400px;
+    background: yellow;
+    border: 1px solid red;
+}
+.class-four{
+    height: 400px;
+    width: 400px;
+    background: red;
+    border: 1px solid red;
+}
+.class-five{
+    height: 400px;
+    width: 400px;
+    background: green;
+    border: 1px solid red;
+}

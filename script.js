@@ -6,7 +6,7 @@ var x = document.getElementById('btn');
     	var last_name =  document.getElementById('last_name').value;
     	var full_name = first_name+" "+last_name;
     	
-    	document.getElementById('fullname').innerHTML = full_name;
+    	//document.getElementById('fullname').innerHTML = full_name;
     	document.getElementById('fullname').value = full_name;
     };
 

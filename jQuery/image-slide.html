@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Start</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+</head>
+<body>
+<div class="container">
+    <img src="src/slider-1.jpg" alt="" id="main-image" class="main-image">
+    <div id="sub-image">
+        <img src="src/slider-2.jpg" alt="" class="sub-image" id="img-2">
+        <img src="src/slider-3.jpg" alt="" class="sub-image" id="img-3">
+        <img src="src/slider-4.jpg" alt="" class="sub-image" id="img-4">
+        <img src="src/slider-5.jpg" alt="" class="sub-image" id="img-5">
+    </div>
+</div>
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/popper.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/script.js"></script>
+<script>
+    $('#img-2').click(function () {
+
+        var imagePath = $('#img-2').attr('src');
+        $('#main-image').attr('src',imagePath);
+    });
+
+    $('#img-3').click(function () {
+
+        var imagePath = $('#img-3').attr('src');
+        $('#main-image').attr('src',imagePath);
+    });
+
+    $('#img-4').click(function () {
+
+        var imagePath = $('#img-4').attr('src');
+        $('#main-image').attr('src',imagePath);
+    });
+
+    $('#img-5').click(function () {
+
+        var imagePath = $('#img-5').attr('src');
+        $('#main-image').attr('src',imagePath);
+    });
+</script>
+</body>
+</html>
